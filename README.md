@@ -9,10 +9,10 @@ Features
     Customizable project layout to suit different needs.
 
 Installation
-### Prerequisites
+## Prerequisites
 - Go (Version 1.21.4 or higher) [Download Go](https://golang.org/dl/)
 
-### Steps
+## Steps
 1. **Install the CLI**: Run the following command:
    ```bash
    go install github.com/Fulenn/MakeGo@latest
