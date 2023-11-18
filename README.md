@@ -17,22 +17,22 @@ Installation
    ```bash
    go install github.com/Fulenn/MakeGo@latest
 
+## Usage
 
+**To create a new Go project with a standard layout, run:**
 
-2. **Build the Executable**: Navigate to the cloned directory and build the executable:
+   ```bash
+   makego [project-name]
+   ```
+Replace [project-name] with the name of your new project. This will create a directory with the specified name and populate it with the standard Go project structure.
 
-    ```bash
-    cd MakeGo
-    go build -o makego.exe
-   
-### Usage
-**To create a new Go project with a standard layout, run the following command:**
-    
-    ```bash
-    makego [project-name]
+**For example:**
 
-Replace [project-name] with your desired project name. This will create a new directory with the specified name and the standard Go project layout.
-Contributing
+   ```bash
+   makego myawesomeproject
+   ```
+
+This command will create a new directory named **myawesomeproject** with the standard Go project structure.
 
 Contributions to MakeGo are welcome! Please refer to the contributing guidelines for more information on how to submit pull requests, report issues, or suggest enhancements.
 License
