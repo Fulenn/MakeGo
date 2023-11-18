@@ -70,7 +70,7 @@ func createDirectories(baseDir string, dirs []string) error {
 }
 
 func loadMainGoTemplate() (string, error) {
-	templatePath := "./pkg/builder/templates/main.go.tpl"
+	templatePath := "./internal/builder/templates/main.go.tpl"
 	content, err := ioutil.ReadFile(templatePath)
 	if err != nil {
 		return "", fmt.Errorf("failed to load main.go template: %s", err)

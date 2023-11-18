@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/Fulenn/MakeGo/pkg/builder"
+	"github.com/Fulenn/MakeGo/internal/builder"
 	"github.com/spf13/cobra"
 	"os"
 )
