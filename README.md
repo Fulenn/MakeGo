@@ -11,13 +11,13 @@ Features
 Installation
 Prerequisites
 
-    Go (Version 1.xx or higher) Download Go
+    Go (Version 1.21.4 or higher) Download Go
 
 Steps
 
     Clone the Repository: First, clone the repository to your local machine using Git:
 
-    git clone https://github.com/yourusername/MakeGo.git
+    git clone https://github.com/Fulenn/MakeGo.git
 
 
 
