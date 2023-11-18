@@ -1,6 +1,6 @@
 package main
 
-import "MakeGo/cmd"
+import "github.com/Fulenn/MakeGo/cmd"
 
 func main() {
 	cmd.Execute()

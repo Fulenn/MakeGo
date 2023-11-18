@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"MakeGo/pkg/builder"
 	"fmt"
+	"github.com/Fulenn/MakeGo/pkg/builder"
 	"github.com/spf13/cobra"
 	"os"
 )

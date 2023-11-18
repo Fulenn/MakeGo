@@ -9,35 +9,26 @@ Features
     Customizable project layout to suit different needs.
 
 Installation
-Prerequisites
+### Prerequisites
+- Go (Version 1.21.4 or higher) [Download Go](https://golang.org/dl/)
 
-    Go (Version 1.21.4 or higher) Download Go
-
-Steps
-
-    Clone the Repository: First, clone the repository to your local machine using Git:
-
-    git clone https://github.com/Fulenn/MakeGo.git
+### Steps
+1. **Install the CLI**: Run the following command:
+   ```bash
+   go install github.com/Fulenn/MakeGo@latest
 
 
 
-Build the Executable: Navigate to the cloned directory and build the executable:
+2. **Build the Executable**: Navigate to the cloned directory and build the executable:
 
-
+    ```bash
     cd MakeGo
     go build -o makego.exe
-
-Add to PATH (Windows): Add the directory containing makego.exe to your system's PATH to use the command from anywhere:
-Right-click on 'This PC' or 'My Computer' → 'Properties' → 'Advanced system settings' → 'Environment Variables'.
-Under 'System variables', find and select the 'Path' variable, then click 'Edit'.
-Click 'New' and add the full path to the directory containing makego.exe.
-Click 'OK' to save and close all windows.
-Open a new command prompt to use the makego command.
-
-Usage
-
-To create a new Go project with a standard layout, run the following command:
-
+   
+### Usage
+**To create a new Go project with a standard layout, run the following command:**
+    
+    ```bash
     makego [project-name]
 
 Replace [project-name] with your desired project name. This will create a new directory with the specified name and the standard Go project layout.

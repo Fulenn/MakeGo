@@ -1,4 +1,4 @@
-module MakeGo
+module github.com/Fulenn/MakeGo
 
 go 1.21.4
 
