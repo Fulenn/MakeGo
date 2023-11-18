@@ -1,6 +1,6 @@
 package main
 
-import "ProjectBuilder/cmd"
+import "MakeGo/cmd"
 
 func main() {
 	cmd.Execute()
